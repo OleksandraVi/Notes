@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>Note app</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <h1>
+          <img src="images/logo.svg" />
+          Notes
+        </h1>
+        <div class="text"><img src="images/edit.svg" />Create Notes</div>
+        <textarea
+          class="notes-container"
+          placeholder="Start typing..."
+          cols="50"
+          rows="10"
+          spellcheck="false"
+        ></textarea>
+        <div class="buttons">
+          <button type="submit" class="save">
+            Save<img src="images/save.svg" />
+          </button>
+          <button type="reset" class="delete">
+            Clear
+            <img src="images/delete.svg" />
+          </button>
+        </div>
+      </form>
+      <div class="old">
+        <div class="text" style="width: 300px">Old Notes</div>
+        <ul class="notes-list"></ul>
+      </div>
+    </div>
+    <script src="myscript.js"></script>
+  </body>
+</html>

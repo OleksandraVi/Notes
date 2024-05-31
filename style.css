@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #a06d8c, #626286);
+    color: #000000;
+    padding-top: 3%;
+    padding-left: 4%;
+}
+
+.container .text {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: rgba(217, 187, 205, 0.2);
+    margin: 10px 0px;
+    border-radius: 5px;
+
+}
+
+.container h1 {
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+}
+
+.container button {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(#626286, #41415a);
+    color: #000000;
+    font-size: 16px;
+    outline: 0;
+    border: 0;
+    border-radius: 40px;
+    padding: 5px 25px;
+    margin: 30px 0 20px;
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    background: #d9bbcd;
+    color: black;
+    padding: 20px;
+    margin: 20px 0;
+    outline: none;
+    border-radius: 10px;
+}
+
+.input-box img {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+    height: 38px;
+
+}
+
+textarea::placeholder {
+    opacity: 0.6;
+    color: #000000;
+}
+
+textarea::selection {
+    color: #000000;
+    background-color: #8484a2;
+}
+
+textarea {
+    outline: none;
+    resize: none;
+    padding: 7px 7px;
+    background: #d2adc0;
+    border-radius: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    max-width: 370px;
+
+}
+
+.buttons>button {
+    cursor: pointer;
+}
+
+.old {
+    padding: 100px;
+}
+
+.old button {
+    height: 47px;
+    width: 200px;
+    justify-content: center;
+
+}
+
+.old li {
+    max-width: 300px;
+    min-height: 80px;
+    list-style-type: none;
+    margin: 10px 0px;
+    padding: 7px;
+    background: #d2adc0;
+    border-radius: 10px;
+    border-width: 0px;
+    word-break: break-all
+}
+
+
+ul li span {
+    float: right;
+    cursor: pointer;
+    background-color: #8484a2;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    font-size: 22px;
+    line-height: 20px;
+    text-align: center;
+}
